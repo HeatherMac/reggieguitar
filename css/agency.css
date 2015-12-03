@@ -44,6 +44,7 @@ a:active,
 a.active {
     color: #65a5b0;
     opacity: 0.8;
+    text-decoration: none;
 }
 
 h1,
