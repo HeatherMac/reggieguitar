@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
+    <link href="css/bootstrap-modal-carousel.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -90,30 +91,51 @@
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <img src="img/header-bg.jpg" alt="reggie on beach">
-                        <div class="carousel-caption">
-                            <div class="intro-lead-in">"My previous teacher was not able to offer me the same standard of teaching as Reggie, his lessons are both enjoyable and very productive"</div>
-                            <h3 class="pull-right">- Luis Torreo<small> Present Student</small></h3>                            
+                        <div class="darkOverlay"></div>
+                        <div class="carousel-caption addPaddingSides">
+                            <div class="intro-heading">Reggie Lawrence</div>
+                            <div class="intro-lead-in">Freelance Performer & Guitar Teacher</div>
+                            <h3 class="text-left addPaddingTop">"A phenomenal guitarist and a testament to Hull being the city of culture."</h3>
+                            <h3 class="text-right">- Hull Daily Mail</h3>                            
                         </div>
                     </div>
                     <div class="item">
                         <img src="img/map-image%20-%20New%20one.png" alt="reggie on stage">
-                        <div class="carousel-caption">
-                            <div class="intro-lead-in">"I was suprised at how well-versed and confident Reggie was at teaching despite still being in higher education. The man knows how to play his guitar!"</div>
-                            <h3 class="pull-right">- Michael Johnson<small> Present Student</small></h3>                            
+                        <div class="darkOverlay"></div>
+                        <div class="carousel-caption addPaddingSides">
+                            <div class="intro-heading">Reggie Lawrence</div>
+                            <div class="intro-lead-in">Freelance Performer & Guitar Teacher</div>
+                            <h3 class="text-left addPaddingTop">"Reggie has been a reliable artist and has demonstrated professionalism through his proficiency and character. The background music he has provided has been very suitable and enjoyable."</h3>
+                            <h3 class="text-right">- Lucy Wilkinson<br> Events Management University of Hull</h3>                            
                         </div>
                     </div>
                     <div class="item">
-                        <img src="img/portfolio/LiveMusic-Preview.png" alt="reggie at adelphi">
-                        <div class="carousel-caption">
-                            <div class="intro-lead-in">"My previous teacher was not able to offer me the same standard of teaching as Reggie, his lessons are both enjoyable and very productive"</div>
-                            <h3 class="pull-right">- Luis Torreo<small> Present Student</small></h3>
+                        <img src="img/uniOfHull.jpg" alt="reggie at uni of hull">
+                        <div class="darkOverlay"></div>
+                        <div class="carousel-caption addPaddingSides">
+                            <div class="intro-heading">Reggie Lawrence</div>
+                            <div class="intro-lead-in">Freelance Performer & Guitar Teacher</div>
+                            <h3 class="text-left addPaddingTop">"The Audience applause was indicative of the huge appreciation that everyone felt. The programme Reggie performed had something for all tastes and was played beautifully."</h3>
+                            <h3 class="text-right">- Karen Constatine<br> WLMS</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/stageWithPiano.jpg" alt="stage with piano">
+                        <div class="darkOverlay"></div>
+                        <div class="carousel-caption addPaddingSides">
+                            <div class="intro-heading">Reggie Lawrence</div>
+                            <div class="intro-lead-in">Freelance Performer & Guitar Teacher</div>
+                            <h3 class="text-left addPaddingTop">"That sounded bloody brilliant."</h3>
+                            <h3 class="text-right">- David 'Burnsy' Burns<br> BBC Humberside</h3>
                         </div>
                     </div>
                 </div>
+                <!--<div class="darkOverlay"></div>-->
                 <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
@@ -140,7 +162,7 @@
                         <i class="fa fa-glass fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Ambience & <br>Background Music</h4>
-                    <p class="text-muted">Beautiful guitar music makes any function exceptional. Get in touch and make any moment a special one.</p>
+                    <p class="text-muted">Hotels, restaurants, cafes, bars, garden parties… you get the idea.  Reggie can provide modest music which, like the soundtrack of a well-made film, will enhance the atmosphere and mood.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -148,7 +170,7 @@
                         <i class="fa fa-bell fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Weddings</h4>
-                    <p class="text-muted">I provide high quality music tailored to your important day</p>
+                    <p class="text-muted">Receptions, breakfasts and post-functions. All kinds of packages are available to make your special day that bit more special. If you have a specific piece or pieces of music in mind do make a request!</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -156,12 +178,19 @@
                         <i class="fa fa-music fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Private Hire</h4>
-                    <p class="text-muted">Beautiful guitar music makes any function exceptional. Get in touch and make any moment a special one.</p>
+                    <p class="text-muted">If you’re interested in organising a recital, or perhaps featuring a guest artist as part of a concert, Reggie has tremendous experience at presenting and performing to audiences. He has a large repertoire of concert music he can tailor towards the event.</p>
                 </div>
             </div>
             <div class="row row-margin text-center">
                 <hr>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="text-muted">Reggie can provide up to five hours worth of live music. Generally every hour will include a 10 minute break which can be occupied with pre-recorded music.<br><br>  
+
+If suitable Reggie can provide his own amplification. Reggie uses an RC3 Condenser mic with a 600i Yamaha PA System; this equipment can easily fill an open area with 100+ people, as well as comfortably occupying a more intimate setting. Condenser microphones are traditionally used with orchestras; Reggie chooses to use this type of mic as it allows his guitar to be amplified without any discrepancy in tone production, giving an unblemished end product.<br><br>
+
+Rates are subjective to the event you’re organising; feel free to get in touch with Reggie for an estimate or more information.</p>
+            </div>
+            <div class="row-margin text-center">
+                <a class="btn btn-xl page-scroll" href="#media">See some videos</a>
             </div>
         </div>
     </section>
@@ -182,24 +211,40 @@
                     <div class="portfolio-caption well">
                         <h4>Private Tuition</h4>
                         <hr>
-                        <p class="text-muted">Reggie offers tuition</p>
+                        <p class="text-muted">Reggie offers private one on one tuition at his studio. He has great experience working with absolute beginners, as well as developed players who have been out of practice.</p>
                     </div>
                 </div>
                 <div class="col-md-offset-2 col-md-5 col-sm-6 portfolio-item">
                     <a class="portfolio-link" data-toggle="modal">                        
-                        <img src="img/portfolio/ClassicalMusic.png" class="img-responsive" alt="">
+                        <img src="img/reggieTeaching.jpg" class="img-responsive maxHeight2Column" alt="">
                     </a>
                     <div class="portfolio-caption well">
-                        <h4>School Tuition</h4>
+                        <h4>Teaching At Schools</h4>
                         <hr>
-                        <p class="text-muted">Teaches</p>
+                        <p class="text-muted">Reggie teaches guitar and piano at Sidmouth Primary School. He finds working with children to be engaging as well as thoroughly rewarding. If you are a school and are interested in expanding the music services you offer to your students, then Reggie would be delighted to hear from you.</p>
                     </div>
                 </div>
             </div>
             <hr>
             <div class="row row-margin">
-                <p class="col-md-6 text-muted verticalCenter">Reggie offers tuition, all kinds of age ranges, teaches all styles, focuses on development of technique principles.</p><!--
-             --><a class="btn btn-xl col-md-offset-2 page-scroll" href="#contact">Get In Touch</a>
+                <p class="text-muted">I find a great sense of fulfilment from teaching and working with people who have a positive attitude towards their own improvement. Having dedicated many years to guitar, and completing a masters in Music Performance, I believe I am fully qualified to pass on the knowledge I have learnt, and relearnt, about guitar and musicianship proficiently to aspiring players.<br><br>
+
+My mission statement is:<br><br>
+
+“As a teacher of guitar my job is to develop the abilities you need to realise what you would like to get out of music and guitar. Additionally I will introduce you to other ideas that I believe coincide with your interests for the benefit of your own development as a guitarist and a musician.”<br><br>
+
+I teach a variety of styles; generally what I advise my students is to first establish a proficient technique at guitar playing, then invest that technique into the kind of music that they’re interested in. I generate my own resources which means my students do not need to additionally purchase sheet music to learn from.<br><br>
+
+First sessions are free of charge; it will be mostly spent discussing what you want to get out of guitar and how I can help you to achieve that.<br><br>
+
+If you do not own a guitar I can happily supply you with one until you make the commitment.<br><br>
+
+My teaching rates are £12 per 30 minutes, £18 for 45 minutes and £24 for one hour.<br><br>
+
+I am DBS checked as of July 2015</p>
+            </div>
+            <div class="row-margin text-center">
+                <a class="btn btn-xl page-scroll" href="#contact">Get In Touch</a>
             </div>
         </div>
     </section>
@@ -215,12 +260,12 @@
             <div class="row row-margin addPaddingTop">
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <div class="portfolio-hover">
-                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">                        
-                            <img src="img/about/2.jpg" class="img-responsive maxHeight" alt="">
+                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal" data-local="#photoCarousel">                        
+                            <img src="img/portfolio/ClassicalMusic-preview.png" class="img-responsive maxHeight3Column" alt="reggie guitar">
                             <div class="portfolio-caption well">
-                                <h4>Photos</h4>
+                                <h4>Gallery</h4>
                                 <hr>
-                                <p class="text-muted">At venues on demand</p>
+                                <p class="text-muted">A selection of photos for publicity purposes.<br><br><br></p>
                             </div>
                         </a>
                     </div>
@@ -228,11 +273,11 @@
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <div class="portfolio-hover">
                         <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">                        
-                            <img src="img/portfolio/LiveMusic.png" class="img-responsive maxHeight" alt="">                        
+                            <img src="img/portfolio/LiveMusic.png" class="img-responsive maxHeight3Column" alt="reggie at adelphi">                        
                             <div class="portfolio-caption well">
                                 <h4>Videos</h4>
                                 <hr>
-                                <p class="text-muted">Check out a few clips of Reggie doing what he does!</p>
+                                <p class="text-muted">Have a listen to some of Reggie’s music to get a flavour of some of the kind of music he can provide.</p>
                             </div>
                         </a>
                     </div>
@@ -240,11 +285,11 @@
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <div class="portfolio-hover">
                         <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">                        
-                            <img src="img/map-image2.jpg" class="img-responsive maxHeight" alt="">                        
+                            <img src="img/stageSquare.jpg" class="img-responsive maxHeight3Column" alt="reggie on stage">                        
                             <div class="portfolio-caption well">
                                 <h4>Concerts</h4>
                                 <hr>
-                                <p class="text-muted">Check out a few clips of Reggie doing what he does!</p>
+                                <p class="text-muted">A collection of videos taken from previous concert performances.<br><br></p>
                             </div>
                         </a>
                     </div>
@@ -266,18 +311,24 @@
                 </div>
             </div>
             <div class="row row-margin">
-                <div class="col-md-2 col-md-offset-2">
+                <div class="col-md-4 col-md-offset-">
                     <img src="img/opendayumbrellasquare.png" class="img-rounded img-responsive">
                 </div>
-                <div class="col-md-2 col-md-offset-1">
+                <div class="col-md-4 col-md-offset-">
                     <img src="img/about/2.jpg" class="img-rounded img-responsive">
                 </div>
-                <div class="col-md-2 col-md-offset-1">
+                <div class="col-md-4 col-md-offset-">
                     <img src="img/about/3.jpg" class="img-rounded img-responsive">
                 </div>
             </div>
             <div class="row row-margin addPaddingTop">
-                <p class="text-muted">Reggie Lawrence is a classical guitarist currently studying a masters in Musical Performance at The University of Hull. Outside of his studies Reggie freelances as a teacher and performer in the Yorkshire and Humberside regions, a feat he finds both challenging and rewarding. Reggie was first introduced to the guitar at age seven and hasn’t put one down since!  After working through the musical grades and being awarded the first prize for classical guitar at the Robin Hood Music Festival 2010, Reggie embarked on an undergraduate in Music at The University of Hull, as well as launching his career as a guitarist. Outside of the guitar Reggie also plays the Piano, Theorbo and Digeridoo. His love of music does not stop at performing; he is an accomplished composer whom has been commissioned to write tracks for a freelance games development team. Reggie enjoys incorporating his own music into his own live music performances. Many exciting future projects lie ahead for Reggie, including collaborations with The University of Hull’s Film and Screen department as well a future tour with guitarist Richard Silvester following their successful series of concerts from last spring.</p>
+                <p class="text-muted">Reggie Lawrence is a freelance performer and guitar teacher based in Hull. After five years of higher education, Reggie recently finished a masters in Music Performance at the University of Hull in addition to his undergraduate there.<br><br>
+
+Reggie was first introduced to the guitar when he was seven years old and has been submerged in the music world ever since. Outside of guitar Reggie plays the piano, theorbo and ukulele. His love of music does not stop at performing; he is an accomplished composer who has written music for the University of Hull, as well as the software development company Smashed Crab Studio.<br><br>
+
+Reggie has toured with several musicians including the guitarist Richard Silvester. Reggie belongs to the guitar trio Three Quarters with accomplished guitarists Matt Burton and Scott Williams. The trio perform nationally and are primarily interested in 21st century repertoire.<br><br>
+
+Reggie is also interested in editing music, of which the academic side of his masters was focused towards. Reggie uses his own editings in his music teaching which provide an accessible means for developing guitarists to interpret music.</p>
             </div>
         </div>
     </section>
@@ -300,7 +351,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="https://www.facebook.com/ReggieGuitar/">
                                 <i class="fa fa-facebook"></i>
                             </a>
                         </li>
@@ -493,6 +544,8 @@
     </div>
 -->
     
+    
+    
     <script>
         var thisYear = new Date().getFullYear(),
             startYear = '2015';
@@ -517,6 +570,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+    <script src="js/bootstrap-modal-carousel.min.js"></script>
 
 </body>
 

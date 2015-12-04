@@ -954,7 +954,11 @@ body {
     float: none;
 }
 
-.maxHeight {
+.maxHeight2Column {
+    max-height: 330px;
+}
+
+.maxHeight3Column {
     max-height: 260px;
 }
 
@@ -969,4 +973,23 @@ body {
 
 .matchHeight {
     height: 100%;
+}
+
+.darkOverlay {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.addPaddingSides {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: medium;
 }
