@@ -24,3 +24,14 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+
+//hide and show carousel for modal
+function showhide() {
+    var carousel = document.getElementById("photos");
+        if(!carousel)
+            {
+                console.log("null");
+            }
+    carousel.classList.toggle("hidden");
+};

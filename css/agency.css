@@ -10,7 +10,7 @@ body {
 }
 
 .text-muted {
-    color: #777;
+    color: #565656;
 }
 
 .text-primary {
@@ -798,7 +798,6 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content {
-    padding: 100px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -893,10 +892,6 @@ ul.social-buttons li a:active {
     z-index: 2;
 }
 
-/*
-WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
-now override the 3.3 new styles for modern browsers & apply opacity
-*/
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
@@ -919,6 +914,39 @@ now override the 3.3 new styles for modern browsers & apply opacity
         -webkit-transform: translate3d(0, 0, 0);
                 transform: translate3d(0, 0, 0);
     }
+}
+
+/* thumbnail stuff */
+.item .thumb {
+	width: 25%;
+	cursor: pointer;
+	float: left;
+}
+.item .thumb img {
+	width: 100%;
+	margin: 2px;
+    height: 100%;
+}
+.item img {
+	width: 100%;	
+    height: 65vh;
+}
+
+/* above the fold carousel */
+#foldCarousel img {
+    height: 100vh;
+}
+
+#photoCarousel img {
+    height: 65vh;
+}
+
+.carousel-caption {
+    bottom: 50%;
+}
+
+.quote-caption {
+    bottom: 10%;
 }
 
 ::-moz-selection {
