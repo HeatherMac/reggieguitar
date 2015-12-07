@@ -266,10 +266,10 @@ I am DBS checked as of July 2015</p>
                 </div>
             </div>
             <div class="row row-margin addPaddingTop">
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-5 col-sm-6 portfolio-item">
                     <div class="portfolio-hover">
                         <a id="photoLink" href="#portfolioModal2" class="portfolio-link" data-toggle="modal" data-local="#photos" onclick="showhide()">                        
-                            <img src="img/portfolio/ClassicalMusic-preview.png" class="img-responsive maxHeight3Column" alt="reggie guitar">
+                            <img src="img/portfolio/ClassicalMusic-preview.png" class="img-responsive maxHeight2Column" alt="reggie guitar">
                             <div class="portfolio-caption well">
                                 <h4>Gallery</h4>
                                 <hr>
@@ -277,27 +277,70 @@ I am DBS checked as of July 2015</p>
                             </div>
                         </a>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <div class="portfolio-hover">
-                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">                        
-                            <img src="img/portfolio/LiveMusic.png" class="img-responsive maxHeight3Column" alt="reggie at adelphi">                        
-                            <div class="portfolio-caption well">
-                                <h4>Videos</h4>
-                                <hr>
-                                <p class="text-muted">Have a listen to some of Reggie’s music to get a flavour of some of the kind of music he can provide.</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                </div>                
+                <div class="col-md-5 col-sm-6 col-md-offset-2 portfolio-item">
                     <div class="portfolio-hover">
                         <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">                        
-                            <img src="img/stageSquare.jpg" class="img-responsive maxHeight3Column" alt="reggie on stage">                        
+                            <img src="img/stageSquare.jpg" class="img-responsive maxHeight2Column" alt="reggie on stage">                        
                             <div class="portfolio-caption well">
                                 <h4>Concerts</h4>
                                 <hr>
                                 <p class="text-muted">A collection of videos taken from previous concert performances.<br><br></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-6 portfolio-item">                                              
+                            <div class="portfolio-caption well">
+                                <h4 class="text-center">Videos</h4>
+                                <hr>
+                                <p class="text-muted text-center">Have a listen to some of Reggie’s music to get a flavour for the kind of music he can provide.</p>
+                                <div id="videoCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <div class="iframeContainer">
+                                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/3Mmk1p_eT1s?controls=1" frameborder="0" allowfullscreen=""></iframe>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="iframeContainer">
+                                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/YkV2KRf_zMs?controls=1" frameborder="0" allowfullscreen=""></iframe>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="iframeContainer">
+                                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/3Hz_iv1ZjQQ?controls=1" frameborder="0" allowfullscreen=""></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clearfix">
+                                    <div id="thumbCarousel" class="carousel slide" data-interval="false">
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <div data-target="#videoCarousel" data-slide-to="0" class="thumb">
+                                                    <img src="img/lagrimaThumb.jpg">
+                                                </div>
+                                                <div data-target="#videoCarousel" data-slide-to="1" class="thumb">
+                                                    <img src="img/preludeThumb.jpg">
+                                                </div>
+                                                <div data-target="#videoCarousel" data-slide-to="2" class="thumb">
+                                                    <img src="img/koyunbabaThumb.jpg">
+                                                </div>
+                                            </div>
+                                        </div>        
+
+                                        <!-- Controls -->
+                                        <a class="left carousel-control" href="#thumbCarousel" role="button" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left"></span>
+                                        </a>
+                                        <a class="right carousel-control" href="#thumbCarousel" role="button" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </a>
                     </div>
