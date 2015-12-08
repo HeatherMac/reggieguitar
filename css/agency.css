@@ -182,11 +182,6 @@ fieldset[disabled] .btn-xl.active {
     background-color: #171a21;
 }
 
-.navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #65a5b0;
-}
-
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
@@ -276,7 +271,7 @@ header {
     color: #171a21;
     background-attachment: scroll;
     background-position: center center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -941,10 +936,21 @@ ul.social-buttons li a:active {
     height: 100vh;
 }
 
+#foldCarousel .carousel-inner .item {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+/* Gallery carousel */
 #photoCarousel img {
     height: 65vh;
 }
 
+
+/* youtube video carousel */
 #videoCarousel img {
     height: 60vh;
 }

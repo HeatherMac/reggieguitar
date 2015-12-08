@@ -34,4 +34,4 @@ function showhide() {
                 console.log("null");
             }
     carousel.classList.toggle("hidden");
-};
+}
