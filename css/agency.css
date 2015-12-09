@@ -676,8 +676,7 @@ aside.clients img {
 }
 
 section#contact {
-    background:
-        linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
         url(../img/map-image-Newone.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -891,7 +890,7 @@ ul.social-buttons li a:active {
     z-index: 2;
 }
 
-@media all and (transform-3d), (-webkit-transform-3d) {
+@media all {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
         opacity: 0;
@@ -976,24 +975,6 @@ ul.social-buttons li a:active {
     .quote-caption h4 {
         font-size: 1.17em;
     }
-}
-
-::-moz-selection {
-    text-shadow: none;
-    background: #65a5b0;
-}
-
-::selection {
-    text-shadow: none;
-    background: #65a5b0;
-}
-
-img::selection {
-    background: 0 0;
-}
-
-img::-moz-selection {
-    background: 0 0;
 }
 
 body {
